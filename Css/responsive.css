@@ -1,0 +1,44 @@
+@media screen and (max-width: 1000px) {
+  body {
+    background-color: rgb(23, 44, 44);
+    color: white;
+  }
+  .logo {
+    justify-content: center;
+    margin: 15px 0;
+    padding: 0px 0px;
+  }
+  header {
+    height:25vh;
+    width:100%;
+}
+nav {
+    flex-direction: column;
+}
+nav ul {
+    justify-content: center;
+    height: 34px;
+    margin-bottom: 10px;
+}
+.search {
+    justify-content: center;
+}
+.search input {
+    width: 50vw;
+}
+.search button {
+    margin-left: 10px;
+}
+.card-item img {
+    width: 20vw;
+}
+footer {
+    height: 8vh;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .slider {
+    height: 20vh;
+  }
+}
